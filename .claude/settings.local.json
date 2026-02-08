@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/torch/hackmoney2026 log --oneline --all)",
+      "Bash(git -C /home/torch/hackmoney2026 show --stat b713444)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --use-npm)",
+      "Bash(npx create-next-app@latest /tmp/ens-defi-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --use-npm)",
+      "Bash(node -e:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
